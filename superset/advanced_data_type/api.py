@@ -18,8 +18,7 @@ from typing import Any
 
 from flask import current_app as app
 from flask.wrappers import Response
-from flask_appbuilder.api import expose, permission_name, protect, rison, safe
-from flask_babel import lazy_gettext as _
+from flask_babel import lazy_gettext 
 
 from superset.advanced_data_type.schemas import (
     advanced_data_type_convert_schema,
